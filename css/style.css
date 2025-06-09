@@ -209,7 +209,7 @@ p,  .p { font-size: var(--p-font-size); font-weight: var(--p-font-weight); line-
 
 
 .imgbox { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-.imgbox--image { width: 70%; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow); }
+.imgbox--image { width: 100%; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow); }
 .imgbox--heading { font-family: var(--font-family-primary); font-size: 2rem; padding-top: 60px; }
 .imgboc--info { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 2rem; font-size: 1.1rem; padding-top: 10px; }
 .imgbox--list-item { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; font-size: 1.3rem; margin-left: 25px; }
