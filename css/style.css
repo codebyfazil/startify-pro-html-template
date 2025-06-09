@@ -191,7 +191,7 @@ p,  .p { font-size: var(--p-font-size); font-weight: var(--p-font-weight); line-
 .team { display: grid; grid-template-columns: 1fr; gap: 2rem; justify-items: center; text-align: center; }
 .section-header { text-align: center; margin-bottom: 2rem; }
 .team-title { font-family: var(--font-family-primary); color: var(--text-color-primary); font-size: 1.5rem; font-weight: 700; line-height: 2.5rem; margin-top: 1rem; }
-.team-description { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-size: 1.1rem; font-weight: 400; line-height: 2rem; padding: 0 1rem; margin-bottom: 1rem; }
+.team-description { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-size: 1.1rem; font-weight: 400; line-height: 2rem; padding: 0 1rem; margin-bottom: 1rem; padding-bottom: 2rem;}
 .team__member-name { font-family: var(--font-family-secondary); color: var(--text-color-primary); font-size: 1.3rem; font-weight: 700; margin-top: 1.5rem; }
 .team__member--info { font-family: var(--font-family-secondary); font-size: 1.2rem; font-weight: 400; color: var(--text-color-secondary); }
 .team__member--image { max-width: 100%; height: auto; border-radius: 6%; }
@@ -209,6 +209,7 @@ p,  .p { font-size: var(--p-font-size); font-weight: var(--p-font-weight); line-
 
 
 .imgbox { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.imgbox--image { width: 70%; height: auto; border-radius: var(--border-radius); box-shadow: var(--box-shadow); }
 .imgbox--heading { font-family: var(--font-family-primary); font-size: 2rem; padding-top: 60px; }
 .imgboc--info { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 2rem; font-size: 1.1rem; padding-top: 10px; }
 .imgbox--list-item { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; font-size: 1.3rem; margin-left: 25px; }
@@ -219,9 +220,9 @@ p,  .p { font-size: var(--p-font-size); font-weight: var(--p-font-weight); line-
 .custumer-review-heading{text-align: center; font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; line-height: 2rem; font-size: 1.5rem; padding-top: 20px; padding-bottom: 20px;}
 .slidewarper{overflow: hidden; max-width: 1200px; margin: 0 70px 55px;} 
 .custmers__reviews{display: flex; flex-direction: row;   align-items: start;  }
-.custumer__review--title{font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; line-height: 2rem; font-size: 1.5rem; padding: 10px;}
-.custmers__review{ border-radius: var(--border-radius); box-shadow: var(--box-shadow); background-color: var(--bg-color); padding-left: 10px; padding-right: 10px; }
-.custumer--describtion{ font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 1.8rem; font-size: 1.2rem; padding-top: 10px; padding-bottom: 5px; }
+.custumer__review--title{margin-bottom: 10px;font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; line-height: 2rem; font-size: 1.5rem; padding: 10px;}
+.custmers__review{ width: 406.71px; height: 366.01px;border-radius: var(--border-radius); box-shadow: var(--box-shadow); background-color: var(--bg-color);     padding: 40px 40px 45px; }
+.custumer--describtion{ margin-bottom: 10px;font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 1.8rem; font-size: 1.2rem; padding-top: 10px; padding-bottom: 5px; }
 .custumer__review--name h6{font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; line-height: 2rem; font-size: 1.2rem;} 
 .custumer__review--name p{font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 2rem; font-size: 1.1rem; padding-top: 10px; }
 .custumer__review--name a{font-family: var(--font-family-secondary); color: var(--text-color-primary); font-weight: 400; line-height: 2rem; font-size: 1rem;} 
