@@ -218,14 +218,27 @@ p,  .p { font-size: var(--p-font-size); font-weight: var(--p-font-weight); line-
 .custumer__ratings { display: flex; flex-direction: row; /* fixed */ margin-bottom: 0.5rem; }
 
 .star { font-size: 1.5rem; color: var(--color-warning); cursor: pointer; }
+.star-o { font-size: 1.5rem; color: var(--bg-color); cursor: pointer; }
 
 .custumer-review-heading { text-align: center; font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; line-height: 2rem; font-size: 1.5rem; padding-top: 20px; padding-bottom: 20px; }
-/* Fix class name typo here */
 .customer__reviews { padding: 0.5rem; }
-
 .customer__review { border-radius: var(--border-radius); box-shadow: var(--box-shadow); background-color: var(--bg-color); padding: 35px 30px 40px; }
 .customer__review--title { margin-bottom: 10px; font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; line-height: 2rem; font-size: 1.5rem; }
 .custumer--describtion { margin-bottom: 10px; font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 1.8rem; font-size: 1.2rem; padding-top: 10px; padding-bottom: 5px; }
 .customer__review--name h6 { font-family: var(--font-family-primary); color: var(--text-color-primary); font-weight: 600; font-size: 1.2rem; }
 .customer__review--name p { font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; line-height: 2rem; font-size: 1.1rem; }
 .customer__review--name a { font-family: var(--font-family-secondary); color: var(--text-color-primary); font-weight: 400; line-height: 2rem; font-size: 1rem; }
+
+
+
+.heading_team_title { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.heading__ratings { display: flex; margin-top: 1rem; }
+.star { color: #fbbf24; font-size: 1.3rem; }
+.rating-text { font-size: 1.2rem; color: var(--text-color-secondary); }
+.heading__image img { width: 100%; max-width: 400px; height: auto; display: block; }
+.btn-primary { background-color: #5d74f2; color: #fff; border: 2px solid transparentgi; border-radius: 4px; padding: 1.25rem 2.25rem; font-family: var(--font-family-primary); font-size: 1.25rem; font-weight: 500; text-decoration: none; cursor: pointer; display: inline-block; transition: background-color 0.3s ease, transform 0.2s ease; }
+.btn-primary:hover { background-color: #ffffff; color: #000000; border: 2px solid #000000; transform: scale(1.02); }
+.heading_img { width: 100%; max-width: 400px; height: auto;  display: block;margin: 2rem auto;}
+.heading--title{font-family: var(--font-family-primary); color: var(--text-color-primary);font-weight: 600; font-size: 3.5rem; padding-top: 4.5rem;}
+.heading-subtitle{font-family: var(--font-family-secondary); color: var(--text-color-secondary); font-weight: 400; font-size: 1.2rem; }
+  
